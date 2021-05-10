@@ -1,0 +1,19 @@
+todo-list
+
+1. 웹사이트 디자인(bootstrap, theme이용) - 블로그 무료 템플릿 사용
+2. CRUD시스템(SQL) - pythonanywhere? or herokuapp
+----------
+데이터 목록
+카페 이름, url, 카페 사진, 위치, 플러그 유무, 화장실 유무, 와이파이 유무, 전화 가능 유무, 좌석 범주, 커피 가격
+
+디자인 방향(세로 나열 방식)
+
+카페1    | 카페 사진 --클릭--> url연결하고 나머지 목록 표시
+카페url  |
+
+카페2
+
+etc...
+
+SQLAlchemy로 DB를 불러올 때 기존 DB에 있는 table의 이름과 Class로 명시하는 table의 이름이 다르면 
+아예 새로운 데이터를 만들게 됌
